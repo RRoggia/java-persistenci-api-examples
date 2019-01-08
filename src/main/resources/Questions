@@ -1,0 +1,5 @@
+2.1 Entity
+* What is a detached object?
+* Example of the entity to being passed by value as a detached object.
+* What are polymorphic association and polymorphic queries?
+* Is a Jave Bean property the equivalent to a class attribute?

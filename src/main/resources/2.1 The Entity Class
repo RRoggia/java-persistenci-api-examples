@@ -1,0 +1,29 @@
+Instance variable may correspond to Java Beans properties --> class attribute.
+
+
+Entity Class must:
+
+1. have No-arg constructor public or protected
+2. be Top level class
+3. implement Serializable interface, **IF** its instance is passed by value as a detached object
+4. access an instance variable directly by the instance itself
+
+Entity class must not:
+
+1. be an Enum or Interface 
+2. be final 
+3. have methods or persistent instance variable as final
+4. allow client classes to by their client classes (Client classes must access entity class state through accessor methods)
+
+Entity supports Inheritance, polymorphic association and polymorphic queries
+
+Entity classes may:
+
+1. be abstract or concrete classes
+2. extend a non-entity classes
+3. extend an entity classes
+4. be extend by a non-entity class 
+
+
+
+
